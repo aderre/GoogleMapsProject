@@ -1,0 +1,121 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item
+        android:id="@+id/ira"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:visible="true"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/ira" />
+      <item
+        android:id="@+id/street"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="@string/street" />
+       <item
+        android:id="@+id/personalizar"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/personalizar" >
+           
+           <menu>
+               <item
+        android:id="@+id/vistas"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:showAsAction="never"
+        android:title="@string/vistas">
+        <menu>
+            <item
+        android:id="@+id/normal"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/normal"/>
+             <item
+        android:id="@+id/hibrido"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/hibrido"/>
+
+     <item
+        android:id="@+id/satelite"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/satelite"/>
+     
+     <item
+        android:id="@+id/terreno"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/terreno"/>   
+        </menu>
+    </item>
+            <item
+        android:id="@+id/trafico"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="@string/trafico"/>
+            <item
+        android:id="@+id/guardar"
+        android:orderInCategory="100"
+        android:enabled="false"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/guardar" />
+              <item
+        android:id="@+id/limpieza"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/limpieza" />
+
+            
+           
+         </menu> 
+             
+       </item>
+           <item
+        android:id="@+id/ruta"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:icon="@android:drawable/ic_menu_share"
+        android:visible="false"
+        android:title="@string/ruta" >
+               
+               <menu>
+                     <item
+        android:id="@+id/coche"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:icon="@drawable/coche"
+        android:title="@string/coche" />
+                      <item
+        android:id="@+id/caminando"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:icon="@drawable/andando"
+        android:title="@string/caminando" />
+                       <item
+        android:id="@+id/publico"
+        android:orderInCategory="100"
+        android:enabled="false"
+        android:showAsAction="always|withText"
+        android:icon="@drawable/publico"
+        android:title="@string/publico" />
+                        <item
+        android:id="@+id/bici"
+        android:orderInCategory="100"
+        android:enabled="false"
+        android:showAsAction="always|withText"
+        android:icon="@drawable/bici"
+        android:title="@string/bici" />
+                   
+               </menu>
+           </item> 
+ 
+    
+   
+    
+</menu>

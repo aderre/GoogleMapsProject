@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Google Maps</string>
+    <string name="normal">Normal</string>
+    <string name="hibrido">Híbrido</string>
+    <string name="satelite">Satélite</string>
+    <string name="terreno">Terreno</string>
+    <string name="vistas">Vistas del mapa</string>
+    <string name="direcciones">Direcciones</string>
+    <string name="libreta">Libreta de direcciones</string>
+    <string name="street">Street View</string>
+    <string name="trafico">Tráfico</string>
+    <string name="visible">Visible</string>
+    <string name="novisible">No Visible</string>
+    <string name="personalizar">Personalizar</string>
+    <string name="limpiar">Eliminar marcadores</string>
+    <string name="limpieza">Eliminar marcadores</string>
+    <string name="guardar">Guardar marcador</string>
+    <string name="ira">Ir a &#8230;</string>
+    <string name="pruebas">Pruebas</string>
+    <string name="caminando">Caminando</string>
+    <string name="ruta">Ruta</string>
+    <string name="coche">Automovil</string>
+    <string name="publico">Transporte público</string>
+    <string name="bici">Bicicleta</string>
+          
+</resources>
